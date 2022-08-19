@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./animate.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <form class=" m-5">
+            <div class="form-group">
+              <label class="label_style" for="formGroupExampleInput">Sayohat uchun qancha pul to`plaganingizni kiriting(UZS)</label>
+              <input type="text" class="form-control" id="summa" placeholder="UZS" required>
+            </div>
+            <div class="form-group">
+              <label class="label_style" for="formGroupExampleInput2">Bilet narxi(USD)</label>
+              <input type="text" class="form-control" id="BiletSum" placeholder="USD" required>
+            </div>
+            <div class="form-group">
+                <label class="label_style" for="formGroupExampleInput3">Mehonxona to`lovi(USD)</label>
+                <input type="text" class="form-control" id="MexSum" placeholder="USD" required>
+              </div>
+              <div class="form-group">
+                <label class="label_style" for="formGroupExampleInput4">Ko`gilochar joylar uchun harajat (YEVO))</label>
+                <input type="text" class="form-control" id="QoshSum"  placeholder="EURO" required>
+              </div>
+          </form>
+        <button type="button" class="btn btn-primary btn-lg btn-block btndesk" onclick="wear()" id="bnt">Hisoblash</button>
+        
+        <h1 class="ocument1 animate__animated  m-5" id="doc"></h1>
+        
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>

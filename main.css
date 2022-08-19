@@ -1,0 +1,23 @@
+.animate__backInDown{
+    animation-delay: 1s;
+    animation-duration: 1s;
+}
+.ocument1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.label_style{
+    font-size: 30px;
+    font-weight: 700px;
+    color: rgb(18, 20, 20);
+}
+ .btndesk{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 7px;
+ }
+
+
+
